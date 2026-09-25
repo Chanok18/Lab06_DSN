@@ -9,15 +9,52 @@ El acceso solo se autoriza cuando ambas capas permiten la operación. Cada solic
 
 > **Estado:** prototipo funcional para laboratorio universitario de Cloud Security.
 
+## 🎯 Objetivo del proyecto
+
+SecureDocs tiene como objetivo demostrar la implementación de un sistema de control de acceso para la gestión segura de documentos internos.
+
+La solución combina RBAC y ABAC para evaluar las solicitudes considerando tanto los permisos asociados al rol del usuario como diferentes atributos del usuario, documento y entorno.
+
+El proyecto permite demostrar escenarios de acceso permitido y denegado, gestión de usuarios y documentos, autenticación mediante JWT, aplicación de políticas ABAC y registro de auditoría.
+
 ---
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías utilizadas
 
-* **Backend:** Node.js, TypeScript y Express.js
-* **Frontend:** React, Vite, TypeScript, Tailwind CSS, Zustand, Axios, Lucide React y Framer Motion
-* **Autenticación:** JWT y Bcrypt
-* **Base de datos local:** SQLite mediante `sqlite3` y `sqlite`
-* **Cliente API:** navegador, Thunder Client o Postman
+### Backend
+
+- Node.js
+- TypeScript
+- Express.js
+- JWT
+- Bcrypt
+
+### Frontend
+
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- Zustand
+- Axios
+- Lucide React
+- Framer Motion
+
+### Base de datos
+
+- SQLite
+- sqlite3
+- sqlite
+
+### Cliente API
+
+- Navegador
+- Thunder Client
+- Postman
+
+---
+---
+
 
 ## Arquitectura
 
